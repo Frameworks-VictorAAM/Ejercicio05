@@ -6,7 +6,7 @@ import { MdMenu } from "react-icons/md";
 import { PiShoppingCartLight } from "react-icons/pi";
 import { useState } from "react";
 import MenuResponsivo from "./MenuResponsivo";
-
+import { TbFileMusic } from "react-icons/tb";
 
 
 
@@ -18,9 +18,9 @@ const Navbar = () => {
         <div className='container flex justify-between font-bold items-center py-8'>
           {
             <div className='text-2xl flex items-center gap-2 uppercase'>
-                <ImBooks />
-                <p>El sitio de BARG</p>
-                <p className='text-secondary'>Cursos</p>
+                <TbFileMusic />
+                <p>Tienda de Musica</p>
+                <p className='text-secondary'> Indie</p>
             </div>
 
           }

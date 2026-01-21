@@ -12,9 +12,9 @@ const navbarLinks = [
   },
   {
     id: 3,
-    name: "courses",
-    title: "Cursos",
-    url: "/courses"
+    name: "News",
+    title: "Lo Nuevo",
+    url: "/news"
   }
 ];
 
